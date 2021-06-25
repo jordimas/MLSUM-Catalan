@@ -1,7 +1,7 @@
 # MLSUM-Catalan
-A Catalan corpus based on https://github.com/recitalAI/MLSUM
+A Catalan corpus based on https://github.com/recitalAI/MLSUM concepts.
 
-Original context form Vilaweb licensed under [Attribution-NonCommercial-NoDerivs](https://creativecommons.org/licenses/by-nc-nd/3.0/deed.ca) whitch allows sharing.
+Original context from Vilaweb licensed under [Attribution-NonCommercial-NoDerivs](https://creativecommons.org/licenses/by-nc-nd/3.0/deed.ca) which allows sharing.
 
 Files:
 * URLs used at urls/train.ca.txt.urls
