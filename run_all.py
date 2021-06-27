@@ -66,14 +66,15 @@ def get_newspaper_content(url, lang, date_archive='20200303'):
 
     #print (f"text: '{text}'")
 
-    if lang in ['ca'] and len(summary) == 0:
-        soup = BeautifulSoup(article.html, 'html.parser')
-        description = soup.find("meta",  {"property":"og:description"})
-        #if "content" in description:
-        summary = description["content"]
+    if lang in ['ca']:
 
-#        print(f"{url} -> {summary}")
-#        print("!!!")
+        if len(summary) == 0:
+            soup = BeautifulSoup(article.html, 'html.parser')
+            description = soup.find("meta",  {"property":"og:description"})
+            summary = description["content"]
+
+        remove_text = "Aquest diari existeix perquè més de vint mil lectors han decidit que poden i volen pagar cinc euros el mes perquè tots rebeu tota la informació amb accés obert. Però no n'hi ha prou. En necessitem més. Tu ho vols i pots? Fes-te'n subscriptor ací."
+        text = text.replace(remove_text, '').strip()
 
     if lang in ['fr']:
         if 'Lire :' in text[:10]:
