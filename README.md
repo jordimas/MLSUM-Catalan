@@ -30,12 +30,30 @@ engines such as <a href="https://g.co/datasetsearch">Google Dataset Search</a>.
       <td><code itemprop="description">This repository collects Catalan corpus for training and evaluting NLP summarization systems. It's based on the MLSum dataset structure and approach but for Catalan language. Context is from Vilaweb licensed under Attribution-NonCommercial-NoDerivs which allows sharing.</code></td>
     </tr>
     <tr>
-      <td>creator</td>
-      <td><code itemprop="creator">Softcatalà</code></td>
-    </tr>
-    <tr>
       <td>sameAs</td>
       <td><code itemprop="sameAs">https://github.com/Softcatala/MLSUM-Catalan</code></td>
     </tr>
+ <tr>
+    <td>creator</td>
+    <td>
+      <div itemscope itemtype="http://schema.org/Organization" itemprop="creator">
+        <table>
+          <tr>
+            <th>property</th>
+            <th>value</th>
+          </tr>
+          <tr>
+            <td>name</td>
+            <td><code itemprop="name">Softcatalà</code></td>
+          </tr>
+          <tr>
+            <td>sameAs</td>
+            <td><code itemprop="sameAs">https://en.wikipedia.org/wiki/Softcatal%C3%A0</code></td>
+          </tr>
+        </table>
+      </div>
+    </td>
+  </tr>
   </table>
 </div>
+
