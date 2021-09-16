@@ -23,11 +23,11 @@ engines such as <a href="https://g.co/datasetsearch">Google Dataset Search</a>.
     </tr>
     <tr>
       <td>name</td>
-      <td><code itemprop="name">This repository collects Catalan corpus for training and evaluting NLP summarization systems.</code></td>
+      <td><code itemprop="name">This repository collects Catalan corpus for training and evaluating NLP summarization systems.</code></td>
     </tr>
     <tr>
       <td>description</td>
-      <td><code itemprop="description">This repository collects Catalan corpus for training and evaluting NLP summarization systems. It's based on the MLSum dataset structure and approach but for Catalan language. Context is from Vilaweb licensed under Attribution-NonCommercial-NoDerivs which allows sharing.</code></td>
+      <td><code itemprop="description">This repository collects Catalan corpus for training and evaluating NLP summarization systems. It's based on the MLSum dataset structure and approach but for Catalan language. Context is from Vilaweb licensed under Attribution-NonCommercial-NoDerivs which allows sharing.</code></td>
     </tr>
     <tr>
       <td>sameAs</td>
